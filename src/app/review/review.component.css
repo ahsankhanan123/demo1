@@ -1,0 +1,79 @@
+
+.container   {
+    /* border: 2px solid red; */
+    padding: 4rem 0rem;
+}
+.container h1  {
+    text-align: center;
+    color: #ffc107;
+    margin: 2rem;
+}
+.container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .row .review    {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 800px;
+}
+.container .row .review .carousel    {}
+.container .row .review .carousel .carousel-item    {}
+.container .row .review .carousel .carousel-item .testimonial    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .row .review .carousel .carousel-item .testimonial .content    {
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .row .review .carousel .carousel-item .testimonial .content .img-box    {
+    max-width: 160px;
+    max-height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.container .row .review .carousel .carousel-item .testimonial .content .img-box img    {
+    width: 120%;
+    height: 100%;
+    margin-left: -20px;
+}
+.container .row .review .carousel .carousel-item .testimonial .content h4    {
+    font-size: 1.4rem;
+    margin: 1rem 0rem;
+}
+.container .row .review .carousel .carousel-item .testimonial .content h5    {
+    font-size: 1rem;
+    opacity: 0.5;
+}
+.container .row .review .carousel .carousel-item .testimonial .text    {
+    width: 70%;
+    padding: 3rem;
+}
+.container .row .review .carousel .carousel-item .testimonial .text p    {
+    font-size: 1.2rem;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+
+@media only screen and (max-width: 768px)    {
+    .container .row .review .carousel .carousel-item .testimonial    {
+        display: block;
+    }
+    .container .row .review .carousel .carousel-item .testimonial .content    {
+        width: 100%;
+    }
+    .container .row .review .carousel .carousel-item .testimonial .text    {
+        width: 100%;
+        padding: 1.5rem;
+        text-align: center;
+    }
+}

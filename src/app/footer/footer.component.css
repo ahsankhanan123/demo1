@@ -1,0 +1,63 @@
+.footer   {
+    background-color: #212529;
+    padding-top: 4rem;
+}
+.footer .container   {}
+.footer .container .row   {
+    padding: 1rem 0rem;
+}
+.footer .container .row h4   {
+    color: white;
+}
+.footer .container .row p   {
+    color: white;
+    opacity: 0.5;
+}
+.footer .container .row .social-icons   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+.footer .container .row .social-icons i   {
+    font-size: 1.5rem;
+    margin: 0rem 1rem;
+    color: white;
+    transition: all 0.5s ease;
+}
+.footer .container .row .social-icons i:hover   {
+    color: #ffc107;
+}
+.footer .container .row ul   {
+    list-style: none;
+}
+.footer .container .row ul li   {
+    transition: all .6s ease;
+    color: aliceblue;
+}
+.footer .container .row ul li:hover   {
+    color: #ffc107;
+    transform: translateX(5px)
+}
+.footer .container .row p   {}
+.footer .container .row p i   {
+    color: #ffc107;
+    margin-right: 5px;
+}
+.footer .container .row a   {
+    text-decoration: none;
+    color: #ffc107;
+    display: block;
+    margin-bottom: 10px;
+}
+.footer .container .row a i   {
+    color: #ffc107;
+    margin-right: 5px;
+}
+.footer .container .row1   {}
+.footer .container .row2   {}
+.footer .container .row2 p   {
+    color: white;
+    opacity: 0.5;
+    text-align: center;
+}

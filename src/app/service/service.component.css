@@ -1,0 +1,27 @@
+.container   {
+    /* border: 2px solid red; */
+    padding: 4rem 0rem;
+}
+.container h1  {
+    text-align: center;
+    color: #ffc107;
+}
+.service     {}
+.service .card     {
+    transition: all .4s ease;
+}
+.service .card:hover     {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.service i     {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #ffc107;
+}
+.service .card-title     {
+    font-size: 2rem;
+    opacity: 0.6;
+}
+.service .card-text     {
+    opacity: 0.6;
+}
